@@ -1,0 +1,75 @@
+body {
+    margin: 0;                  
+    font-size: 2.5em;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 10vw 20vw auto 20vw 10vw;
+    grid-template-areas: "head" "aside" "main" "nav" "foot"; 
+}
+@media all and (max-width: 600px) {
+    body {
+       grid-template-columns: 80vw 20vw;
+       grid-template-rows: 10vh 20vh auto 10vh;    
+       grid-template-areas: 
+          "head head" 
+          "nav aside"
+          "main main"
+          "foot foot"
+    }
+    ul {font-size: xx-small;display: table; margin-left: 15px; text-align: left;}
+    p {font-size: xx-small; text-align: left;}
+    #altt{font-size: xx-small;text-align: left;}
+    #AuthName{font-size: xx-small;text-align: left;}
+    th{font-size: xx-small;}
+    img{height: 100%;width: 100%;}
+    input{width: 20px; }
+    caption{font-size: medium;}
+    h2{font-size: small;}
+    a{font-size: x-small;}
+    #anchorID{
+        padding-top: 30vh; margin-top: -30vh;
+    }
+ }
+
+
+header, nav, main, aside, footer {
+    text-align: center;
+ }
+ 
+ header {
+    grid-area: head;
+    background: cornflowerblue;
+    position:sticky;
+    top:0
+ }
+ 
+ nav {
+    grid-area: nav;      
+    background: khaki;
+
+ }
+ 
+ main {
+    grid-area: main;      
+    background: lightgreen;
+    
+ }
+ table{background-color: lightgreen;caption-side: top;border-collapse: collapse;border:solid;border-color: black;}
+ td{border: 1px solid #000;}
+ 
+ 
+ aside {
+    grid-area: aside;      
+    background: goldenrod;
+ }
+ 
+ footer {
+    grid-area: foot;      
+    background: thistle;
+ }
+ ul {display: table; margin-left: 40px; text-align: left;}
+ p {text-align: left;}
+ #anchorID{text-align: center;}
+ #altt{text-align: left;}
+ #AuthName{text-align: left;}
+ 

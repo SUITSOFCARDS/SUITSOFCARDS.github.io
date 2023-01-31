@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <Title>FotoAlbumIsaak</Title>
+    <meta charset = "utf-8">
+    <meta name ="viewport" content="width=device-width", initial-scale 1>
+    <link rel="stylesheet" href="testing.css">
+
+
+
+    </form>
+    <script>
+        console.log("hoi")
+    </script>
+</head>
+<body>
+    <header>Isaak's Foto album</header>
+    <nav>
+        <h2>Info</h2>
+        <p>This is Isaak's foto album created for the course 'web-development' at the Vrije Universiteit Amsterdam. It was created using html and css.</p>
+    </nav>
+    <main>
+        <form action="https://wt.ops.labs.vu.nl/api23/a48f1fba" method="post">
+        <table>
+            <caption><strong>Famous Authors</strong></caption>
+        <!---headers-->
+            <tr id="tableheaders">
+                <th><pre>image</pre></th>
+                <th><pre>author</pre></th>
+                <th><pre>alt</pre></th>
+                <th><pre>tags</pre></th>
+                <th><pre>description</pre></th>
+            </tr>
+            <!---Stpehen king-->
+            <tr id="SK">
+                <td><figure></figure><img src="https://images0.persgroep.net/rcs/ZTEJWT-tgqd6HY-ulRLOhwhjLU4/diocontent/111561485/_fitwidth/1240?appId=93a17a8fd81db0de025c8abd1cca1279&quality=0.9&desiredformat=webp" alt="StephenKing" height="200"></td>
+                <td id="AuthName">Stephen King</td>
+                <td id="altt">An image of stephen king</td>
+                <td><ul><li>author</li><li>Thriller</li><li>Horror</li><li>Sciencefiction</li></ul></td>
+                <td><p id="description"><em>Stephen Edwin king</em> is an American writer.He is known his quick pace of writing and is mainly known for writing Horror, sciencefiction and thrillers.</p></td>
+            </tr>
+            <!---george martin-->
+            <tr id="GRRM">
+                <td><figure></figure><img src="data:image/jpeg;base64,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" alt="George RR martin" width="250"></td>
+                <td id="AuthName">George R.R Martin</td>
+                <td id="altt">An Image of George R.R Martin</td> 
+                <td><ul><li>author</li><li>Epics</li><li>Fantasy</li></ul></td>
+                <td><p id="description"><em>George <abbr title="Raymond Richard">R.R</abbr> Martin</em>is an American writer. He is mainly known for his hugely popular <em>'A Song Of Ice And Fire'</em> series and his slow publishing pace. He has also worked on the story of game of the year winner '<em>Elden Ring</em>'<a href="https://en.wikipedia.org/wiki/Elden_Ring">Elden Ring wiki</a></p></td>
+            </tr>
+            <!--tolkien-->
+            <tr id="JRRT">
+                <td><figure></figure><img src="https://static.wikia.nocookie.net/tolkien-online/images/e/e5/J.R.R._Tolkien.jpg/revision/latest?cb=20170402191335&path-prefix=nl" alt="Tolkien" height="300">
+                <td id="AuthName">John R.R Tolkien</td>
+                <td id="altt">An image of John R.R Tolkien</td>
+                <td><ul><li>Fantasy</li><li>Epics</li><li>Lord Of The Rings</li></ul></td>
+                <td><p id="description"><em>John<abbr title="Ronald Reuel"> R.R</abbr> Tolkien </em> is said to be the grandfather of the fantasy genre His work is very influential to this day. He wrote the third most sold book in the world, <em>'the lord of the rings'</em></p></td>
+            </tr>
+            <tr id="JKR">
+                <td><figure></figure><img src="https://images0.persgroep.net/rcs/tHZAhoL_UPK3P6SzIELR9yCyAz0/diocontent/171675245/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.8" alt="J.K rowling" height="200"></td>
+                <td id="AuthName">Joanne Rowling</td>
+                <td id="altt">An image of Joane K. Rowling</td>
+                <td><ul><li>author</li><li>Harry Potter</li><li>Fiction</li></ul></td>
+                <td><p id="description"><em>Joane <abbr title="Kathleen">K.</abbr> Rowling</em>is the famous author of the <em>'harry potter'</em>series. She was born in Bristol England, which inspired the setting for her harry potter books</p></td>
+            </tr>
+            <tr>
+                <td><input type="url" placeholder="image URL" required name="image"></td>
+                <td><input type="text" name="author"></td>
+                <td><input type="text" name="alt"></td>
+                <td><input type="text" name="tags"></td>
+                <td><input type="text" name="description"></td>
+            </tr>
+        </table>
+        <tr><button type="submit">submit</button></tr>
+    </form>
+    </main>
+</form>
+    <aside>
+        <h2>Navigate</h2>
+            <p>
+                <div id="AnchorID">
+                <a href="#SK">Steven King</a>
+                <a href="#GRRM">George RR Martin</a>
+                <a href="#JRRT" >John R.R Tolkien</a>
+                <a href="#JKR" >Joane K. Rowling</a>
+                </div>
+            </p>
+
+    </aside>
+    <footer>
+        <p id="myP">?</p>
+        <script>
+            function getweather (zip){
+                let endpoint = "https://api.openweathermap.org/data/2.5/weather?zip=90210&units=imperial&appid=d930e513646e2393ec5dd7fba06468f9";
+                let apikey = d930e513646e2393ec5dd7fba06468f9;
+                let querystring ="zip=" + zip + "&units=imperial&appid=" + apikey;
+                let url = endpoint + "?" + querystring;
+                
+                let xhr = new XMLDocument();
+                xhr.addEventListener("load", ResponseReceivedHandler);
+                xhr.ResponseType = "json";
+                xhr.open("get", url);
+                xhr.send();
+            }
+            function ResponseReceivedHandler(){
+                let WeatherInfo = document.getElementById("weather");
+                console.log(this.response.main.temp)
+            }
+
+        </script>
+    </footer>
+</body>
+</html>
